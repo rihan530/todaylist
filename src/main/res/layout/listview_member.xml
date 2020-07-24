@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/com_rowid"
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="#ffffff"
+    android:gravity="center_vertical"
+    android:orientation="horizontal"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center_vertical"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="14dp" />
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="50dp"
+        android:layout_height="match_parent" android:gravity="center"
+        android:orientation="vertical">
+
+
+
+        <TextView
+            android:id="@+id/reg_group"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="#1E96FF" android:gravity="center"
+            android:textColor="#ffffff" android:text="멤버승인"
+            android:textSize="12dp" />
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
